@@ -1,4 +1,5 @@
-# Cosmo Junkie Front end Mobile First Responsive Website
+# Cosmo Junkie 
+Front end Mobile First Responsive Website
 
 
 

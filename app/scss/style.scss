@@ -12,6 +12,9 @@
 
 // Small Tablet Styles
 @media screen and (min-width: 620px) {
+  p {
+    background-color: red;
+  }
 }
 // Large Tablets & Laptops Styles
 @media screen and (min-width: 960px) {

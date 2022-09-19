@@ -90,6 +90,35 @@ $mq-620-up: "only screen and (min-width: 620px)";
   #welcome {
     padding-bottom: 40px;
   }
+  .projects {
+    a:nth-child(1) {
+      grid-column: 2/4;
+    }
+    a:nth-child(2) {
+      grid-column: 4/6;
+      padding-top: 140px;
+    }
+    a:nth-child(3) {
+      grid-column: 6/8;
+    }
+    a * {
+      max-width: 80%;
+      margin: 10px 10%;
+    }
+  }
+  #skills {
+    padding: 30px 20px;
+    ul {
+      margin: 40px 0;
+    }
+    li {
+      grid-column: span 2;
+    }
+  }
+  footer {
+    padding: 40px 20px;
+    background-size: 25%;
+  }
 }
 // Desktop Styles
 @media screen and (min-width: 1200px) {

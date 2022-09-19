@@ -1,6 +1,6 @@
 // // Media Queries
 // $mq-620-down: "only screen and (max-width: 620px)";
-// $mq-620-up: "only screen and (min-width: 620px)";
+$mq-620-up: "only screen and (min-width: 620px)";
 
 // $mq-760-down: "only screen and (max-width: 759px)";
 // $mq-760-up: "only screen and (min-width: 760px)";
@@ -17,7 +17,41 @@
 
 // Small Tablet Styles
 @media screen and (min-width: 620px) {
+  .welcome-text {
+    grid-column: 1/5;
+  }
+  .welcome-img {
+    grid-column: 5/9;
+    img {
+      width: 100%;
+    }
+  }
+  .projects {
+    margin-top: 40px;
+    a {
+      grid-column: span 4;
+      display: block;
+      margin: 20px 0;
+    }
+    a:last-child {
+      grid-column: 3/7;
+    }
+    a * {
+      max-width: 60%;
+      margin: 10px 20%;
+    }
+    h4 {
+      text-align: center;
+    }
+  }
+  #skills {
+    padding: 30px 90px;
+  }
+  footer {
+    background-size: 20%;
+  }
 }
+
 // Large Tablets & Laptops Styles
 @media screen and (min-width: 960px) {
   body {

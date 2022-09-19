@@ -1,4 +1,4 @@
-# Webiste Name: Cosmo Junkie
+# Cosmo Junkie
 
 Front-end Mobile-First-Responsive-Website
 

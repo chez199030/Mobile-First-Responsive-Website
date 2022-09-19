@@ -1,13 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Cosmo Junkie</title>
+    <!-- General meta tags needed-->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Needed for responsive design -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- If you want custom browser colors on mobile -->
+    <meta name="theme-color" content="#1843c1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1" />
+
+    <title></title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="dist/style.css?cb=1663545758482" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <header>
+      <nav class="site-nav grid">
+        <h1>Cosmo Junkie</h1>
+        <ul>
+          <li><a href="#porfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome" class="grid">
+        <div class="welcome-text">
+          <h2>
+            Space Enthusiast <br />
+            & JavaScript Developer
+          </h2>
+          <p class="leading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia
+            repudiandae dicta, laboriosam porro tempore exercitationem,
+            doloribus harum expedita odit eius quam provident, at beatae atque.
+            Possimus animi ad ea!
+          </p>
+          <a href="#portfolio" class="button">View my work</a>
+        </div>
+        <div class="welcome-img">
+          <img src="app/images/banner_image.png" alt="Picture of Planet" />
+        </div>
+      </section>
+      <section id="portfolio">
+        <h3>Some of my Projects</h3>
+        <div class="projects grid">
+          <a href="#"
+            ><img src="app/images/project_1.png" alt="Space race img" />
+            <h4>Space Race Game</h4></a
+          >
+        </div>
+        <div class="projects grid">
+          <a href="#"
+            ><img src="app/images/project_2.png" alt="Galaxy img" />
+            <h4>Galaxy API</h4></a
+          >
+        </div>
+        <div class="projects grid">
+          <a href="#"
+            ><img src="app/images/project_3.png" alt="Captain Cosmo blog img" />
+            <h4>Captain Cosmo BLog</h4></a
+          >
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Things I Can Do</h3>
+        <ul class="grid">
+          <li>
+            <img src="app/images/comet_1.svg" alt="comet" />
+            <h4>JavaScript</h4>
+          </li>
+        </ul>
+        <ul class="grid">
+          <li>
+            <img src="app/images/comet_2.svg" alt="comet" />
+            <h4>React</h4>
+          </li>
+        </ul>
+        <ul class="grid">
+          <li>
+            <img src="app/images/comet_3.svg" alt="comet" />
+            <h4>Bootstrap 5</h4>
+          </li>
+        </ul>
+        <ul class="grid">
+          <li>
+            <img src="app/images/comet_4.svg" alt="comet" />
+            <h4>Tailwind CSS</h4>
+          </li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h3>Get in Touch</h3>
+        <p class="leading">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </p>
+        <form>
+          <input type="text" placeholder="full-name" />
+          <input type="email" placeholder="email@yahoo.com" />
+          <textarea placeholder="Your Message"></textarea>
+          <button class="button">Send Flare</button>
+        </form>
+      </section>
+      <footer>
+        <div class="grid">
+          <p class="copyright">Copyright 2020 Cosmo Junkie</p>
+          <ul class="social">
+            <li>
+              <a href=""><img src="app/images/icon_fb.svg" alt="Facebook" /></a>
+            </li>
+            <li>
+              <a href=""><img src="app/images/icon_tw.svg" alt="Twitter" /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+
+    <!-- JavaScript File -->
+    <script src="dist/all.js?cb=1663545758482"></script>
   </body>
 </html>
